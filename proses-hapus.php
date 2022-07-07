@@ -6,7 +6,7 @@ if (isset($_GET['id'])) {
 
 	$id = $_GET['id'];
 
-	// perintah query untuk menghapus data pada tabel is_siswa
+	// perintah query untuk menghapus data pada tabel
 	$query = mysqli_query($db, "DELETE FROM pembayaran_zakat WHERE id='$id'");
 
 	// cek hasil query

@@ -69,7 +69,7 @@
               <?php
 
               $query = mysqli_query($db, "SELECT pembayaran_zakat.id, pembayaran_zakat.jenis_zakat_id, pembayaran_zakat.nominal, pembayaran_zakat.nama, pembayaran_zakat.telpn, pembayaran_zakat.email, pembayaran_zakat.bank, pembayaran_zakat.rek_bank,jenis_zakat.nm_zakat  FROM pembayaran_zakat INNER JOIN jenis_zakat ON jenis_zakat.id = pembayaran_zakat.id")
-                or die('Ada kesalahan pada query siswa: ' . mysqli_error($db));
+                or die('Ada kesalahan pada query: ' . mysqli_error($db));
 
               $no = 1;
               while ($data = mysqli_fetch_assoc($query)) {
@@ -89,7 +89,7 @@
                             <i class='glyphicon glyphicon-edit'></i>
                           </a>";
               ?>
-                <a data-toggle="tooltip" data-placement="top" title="Hapus" class="btn btn-danger btn-sm" href="proses-hapus.php?id=<?php echo $data['id']; ?>" onclick="return confirm('Anda yakin ingin menghapus siswa <?php echo $data['nama_lengkap']; ?>?');">
+                <a data-toggle="tooltip" data-placement="top" title="Hapus" class="btn btn-danger btn-sm" href="proses-hapus.php?id=<?php echo $data['id']; ?>" onclick="return confirm('Anda yakin ingin menghapus <?php echo $data['nama_lengkap']; ?>?');">
                   <i class="glyphicon glyphicon-trash"></i>
                 </a>
               <?php
