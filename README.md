@@ -14,3 +14,6 @@
 2. Read pembayaran zakat
 3. Update pembayaran zakat
 4. Delete pembayaran zakat
+
+## Tampilan Aplikasi
+![Halaman Dashboard](tampilan_aplikasi.png)
