@@ -3,8 +3,11 @@
 ## Anggota :
 1. Imam Nurhidayat
 2. Ikbal Putra Fauzan
-3. 
-
+3. Hadi Imanuel
+4. Imam Al Rasyid
+5. Kelvin Kusnadi
+6. Lintang Alfi Syahrin
+7. Lisa Raudatul Jannah
 
 ## Fitur
 1. Create pembayaran zakat
