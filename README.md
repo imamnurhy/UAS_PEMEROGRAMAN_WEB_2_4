@@ -16,4 +16,8 @@
 4. Delete pembayaran zakat
 
 ## Tampilan Aplikasi
+### Halaman Login
+![Halaman Login](tampilan_aplikasi_2.png)
+
+### Halaman Dashboard
 ![Halaman Dashboard](tampilan_aplikasi.png)
